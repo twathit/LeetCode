@@ -1,3 +1,6 @@
+// 67. 二进制求和
+// https://leetcode-cn.com/problems/add-binary/
+
 const addBinary = (a ,b) => {
   const maxLength = Math.max(a.length, b.length);
   a = a.padStart(maxLength, '0');

@@ -1,4 +1,5 @@
 // 二叉树的所有路径-257
+// https://leetcode-cn.com/problems/binary-tree-paths/
 
 const binaryTreePaths = (root) => {
   let res = [];
